@@ -3,7 +3,7 @@ clear
 
 %% For Generation 2v p-p sin wave
 tstart = 0;
-tend = 2;
+tend = 3;
 sampling_period = 0.01;
 
 t = tstart : sampling_period : tend;
