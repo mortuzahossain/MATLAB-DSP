@@ -11,13 +11,13 @@ x = 5*cos(4*pi*t);
 figure(1);
 plot(t,x);
 title('Cos Wave Generating');
-saveas(gcf,'cos1_generation.png');
+%saveas(gcf,'cos1_generation.png');
 
 %% Sampling Of Cos Wave
 figure(2);
 stem(x);
 title('Cos Wave Sampling');
-saveas(gcf,'cos1_sampling.png');
+%saveas(gcf,'cos1_sampling.png');
 
 %% Reconstruction of cos Wave
 
@@ -30,4 +30,4 @@ f = interp1(t,x,new_time);
 figure(3);
 plot(new_time,f);
 title('Cos Wave Reconstruction');
-saveas(gcf,'cos1_reconstruction.png');
+%saveas(gcf,'cos1_reconstruction.png');
